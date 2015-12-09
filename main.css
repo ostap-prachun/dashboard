@@ -1,0 +1,36 @@
+.widgets {
+  display: inline-block;
+  max-width: 412px;
+}
+.widget {
+  border: 1px dashed;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 2px 2px 0;
+  vertical-align: top;
+}
+.widget-1cell {
+  width: 200px;
+}
+.widget-2cell {
+  width: 404px;
+}
+.widget-title {
+  text-align: center;
+}
+.calculator-symbol {
+  border: 1px solid;
+  border-radius: 3px;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px 9px;
+  user-select: none;
+  -moz-user-select: none;
+}
+.calculator-symbol:hover {
+  background-color: skyblue;
+  cursor: pointer;
+  
+}
