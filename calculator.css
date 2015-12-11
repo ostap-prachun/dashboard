@@ -1,0 +1,18 @@
+.calculator {
+  background-color: #2672EC;
+}
+.calculator-symbol {
+  border: 1px solid;
+  border-radius: 3px;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px 9px;
+  user-select: none;
+  -moz-user-select: none;
+}
+.calculator-symbol:hover {
+  background-color: #2E8DEF;
+  cursor: pointer;
+}
